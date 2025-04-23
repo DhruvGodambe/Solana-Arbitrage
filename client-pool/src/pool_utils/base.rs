@@ -1,6 +1,6 @@
 //! Base curve implementation
 
-use solana_program::{
+use anchor_lang::solana_program::{
     program_error::ProgramError,
     program_pack::{Pack, Sealed},
 };

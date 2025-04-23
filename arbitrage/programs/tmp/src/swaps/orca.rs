@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
-use solana_program::instruction::{AccountMeta, Instruction};
-use solana_program;
+use anchor_lang::solana_program::instruction::{AccountMeta, Instruction};
+use anchor_lang::solana_program;
 use anchor_spl:: token::TokenAccount;
 use anchor_lang::Accounts;
 use crate::ix_data::SwapData;
